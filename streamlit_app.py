@@ -17,7 +17,7 @@ st.image('https://t4.ftcdn.net/jpg/04/46/93/93/360_F_446939375_83iP0UYTg5F9vHl6i
 st.title("ChatGPT-like clone")
 
 # Set OpenAI API key from Streamlit secrets
-client = OpenAI(api_key=st.secrets["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"])
+client = OpenAI(api_key=st.secrets["openai.api_key"])
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
