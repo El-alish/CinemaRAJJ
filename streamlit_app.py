@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import plotly.express as px
 from streamlit_navigation_bar import st_navbar
 from streamlit_option_menu import option_menu
 
