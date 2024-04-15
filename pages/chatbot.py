@@ -1,4 +1,5 @@
 import streamlit as st
+pip install openai
 from openai import OpenAI
 
 st.title("ChatGPT-like clone")
