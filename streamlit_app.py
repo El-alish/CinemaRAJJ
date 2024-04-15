@@ -19,7 +19,7 @@ with st.sidebar:
             st.markdown(message["content"])
     
     # React to user input
-    if prompt := st.chat_input("What is up?"):
+    if prompt := st.chat_input("Ceci est notre ChatGPT à nous"):
         # Display user message in chat message container
         st.chat_message("user").markdown(prompt)
         # Add user message to chat history
@@ -31,6 +31,7 @@ with st.sidebar:
             st.markdown(response)
         # Add assistant response to chat history
         st.session_state.messages.append({"role": "assistant", "content": response})
+        
 st.title("Bienvenue au cinéma RAJJ - Élu meilleur cinéma de la Creuse")
 
 st.image('https://t4.ftcdn.net/jpg/04/46/93/93/360_F_446939375_83iP0UYTg5F9vHl6icZwgrEBHXeXMVaU.jpg', caption='Vous ne savez pas quoi regarder ?')
