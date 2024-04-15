@@ -14,7 +14,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 
 st.set_page_config(
-    page_title="Multipage App",
+    page_title="Cinema RAJJ",
     page_icon="👋",
 )
 
