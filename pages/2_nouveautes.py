@@ -1,6 +1,6 @@
 import streamlit as st
-st.markdown("Nouveautés")
-st.sidebar.markdown("# Page 2 ❄️")
+st.markdown("Les Nouveautés et Tendances")
+st.sidebar.markdown("# Nouveautés")
 page_title="Nouveautés"
 st.title("Les nouveautés du cinéma en ce moment :")
 st.write("Quelles sont les dernières tendances ?")
