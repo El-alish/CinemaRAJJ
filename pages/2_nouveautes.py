@@ -1,5 +1,5 @@
 import streamlit as st
-st.markdown("# Page 2 ❄️")
+st.markdown("Nouveautés")
 st.sidebar.markdown("# Page 2 ❄️")
 page_title="Nouveautés"
 st.title("Les nouveautés du cinéma en ce moment :")
